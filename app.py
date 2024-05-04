@@ -40,5 +40,5 @@ def page(url):
             return render_template('page.html', title=page_data['title'], description=page_data['description'])
     return 'Page not found', 404
 
-if __name__ == '__main__':
-    app.run(debug=True)
+# if __name__ == '__main__':
+#     app.run(debug=True)
